@@ -1,9 +1,447 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Stránka-1" id="5qoGTdxEbMfSazBOStTw">
-    <mxGraphModel>
+    <mxGraphModel dx="4148" dy="3433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5_jgNfehz54n4wZIJXmO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;glass=0;noLabel=1;connectable=0;allowArrows=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="24" y="1250" width="840" height="570" as="geometry">
+            <mxRectangle x="24" y="180" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-2" value="&lt;h1&gt;Vysvětlivky&lt;/h1&gt;&lt;h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;END&amp;nbsp; &lt;span style=&quot;font-weight: normal;&quot;&gt;/&lt;/span&gt;&amp;nbsp; konec&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt; - Zastřešení/bazén&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;TX&amp;nbsp; &amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;/&amp;nbsp; &amp;nbsp;&lt;/span&gt;vysílač&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Vysílač, spíše obousměr - &quot;transciever&quot;:&amp;nbsp; přijímač a vysílač v jednom, obousměrná komunikace&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;LoRa &lt;span style=&quot;font-weight: normal;&quot;&gt;- Long Range - bezdrátová technologie pro dlouhý dosah s nízkou spotřebou&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;AP - Acces Point&amp;nbsp; /&amp;nbsp; router- přístupový bod pro WiFi&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;LAN - lokální síť - veškerá komunikace probíhá lokálně v síti, bez potřeby se připojovat někam na externí servery&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;BLE - bluetooth low energy&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-240" width="580" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#8CCB39;" vertex="1" parent="1">
+          <mxGeometry x="565" y="-195" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;glass=0;noLabel=1;connectable=0;allowArrows=0;container=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="780" width="840" height="420" as="geometry">
+            <mxRectangle x="24" y="180" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-5" style="edgeStyle=none;html=1;entryX=0.015;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-4" source="5_jgNfehz54n4wZIJXmO-6" target="5_jgNfehz54n4wZIJXmO-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="182.96000000000004" y="323.55999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-6" value="Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="36" y="190" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-7" value="&lt;h1&gt;Výhody&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Standardní šifrování WiFi (lze vylepšit)&lt;/li&gt;&lt;li&gt;nízká latence přenosu&lt;/li&gt;&lt;li&gt;není nutnost párovat rádio vysílače&lt;/li&gt;&lt;li&gt;menší komplexita&lt;/li&gt;&lt;li&gt;při silném signálu odolnost proti šumu&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="326" width="264" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-8" value="&lt;h1&gt;HW&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;END WiFi + radio TX umístěný blízko routeru&lt;/li&gt;&lt;li&gt;přímé spojení mezi AP a END skrz wifi&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="141" width="205" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-9" value="&lt;h1&gt;Nevýhody&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#ffffff&quot;&gt;nižší spolehlivost a síla signálu&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ffffff&quot;&gt;může být vyšší spotřeba (stále řády mA)&lt;/font&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="576" width="264" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-10" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="166" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-11" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-4" source="5_jgNfehz54n4wZIJXmO-10" target="5_jgNfehz54n4wZIJXmO-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="269.99640316205523" as="sourcePoint" />
+            <mxPoint x="331" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-12" value="WiFi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-11">
+          <mxGeometry x="-0.4355" relative="1" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-13" value="" style="group" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="390" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-14" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-13">
+          <mxGeometry x="25" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-15" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-13">
+          <mxGeometry x="25" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-16" value="( (&amp;nbsp; &amp;nbsp; &amp;nbsp;) )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-13">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-17" value="TX&lt;br&gt;END" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="400" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-18" value="motor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="492" y="250" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-19" style="edgeStyle=none;html=1;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-4" source="5_jgNfehz54n4wZIJXmO-14" target="5_jgNfehz54n4wZIJXmO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-20" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="5_jgNfehz54n4wZIJXmO-4" source="5_jgNfehz54n4wZIJXmO-22" target="5_jgNfehz54n4wZIJXmO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-21" value="radio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-20">
+          <mxGeometry x="-0.3475" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.easygatesdirect.co.uk/store/image/cache/data/cloner-500-500x500.png;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="286" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-23" value="&lt;h1&gt;Hodí se pro&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;bazény s velmi krátkou vzdáleností od AP (cca do 20m)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry x="596" y="230" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-24" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Verze 2&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Cloud&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;WiFi&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-4">
+          <mxGeometry y="13" width="150" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;glass=0;noLabel=1;connectable=0;allowArrows=0;container=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="180" width="840" height="570" as="geometry">
+            <mxRectangle x="24" y="180" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-26" value="&lt;h1&gt;Výhody&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;spolehlivost komunikace&lt;/li&gt;&lt;li&gt;pro na TX END stačí jen rádio vysílač&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="326" width="264" height="203.57142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-27" value="&lt;h1&gt;HW&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vysílač Wifi + LoRa&amp;nbsp;&lt;br&gt;umístěný v domácnosti/blízko AP&lt;/li&gt;&lt;li&gt;radio vysílač v ENDu&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="141" width="205" height="203.57142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-28" value="&lt;h1 style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;Hodí se pro&lt;/h1&gt;&lt;p style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;&lt;li style=&quot;padding: 3px 0px; border-color: rgb(0, 0, 0);&quot;&gt;bazény se střední vzdáleností od AP (cca 20m+)&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="16" y="360" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-29" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Verze 1&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Cloud&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;WiFi&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;rádio&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry y="30" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-30" value="Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="26" y="240" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-31" value="motor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="696" y="232" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-32" value="" style="group" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="606" y="262" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-32">
+          <mxGeometry x="25" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-34" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-32">
+          <mxGeometry x="25" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-35" value="( (&amp;nbsp; &amp;nbsp; &amp;nbsp;) )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-32">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-36" style="edgeStyle=none;html=1;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-25" source="5_jgNfehz54n4wZIJXmO-33" target="5_jgNfehz54n4wZIJXmO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-37" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.easygatesdirect.co.uk/store/image/cache/data/cloner-500-500x500.png;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="456" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-38" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="5_jgNfehz54n4wZIJXmO-25" source="5_jgNfehz54n4wZIJXmO-37" target="5_jgNfehz54n4wZIJXmO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-39" value="rádio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-38">
+          <mxGeometry x="-0.3475" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-40" value="" style="group" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="306" y="262" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-41" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-40">
+          <mxGeometry x="25" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-42" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-40">
+          <mxGeometry x="25" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-43" value="( (&amp;nbsp; &amp;nbsp; &amp;nbsp;) )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-40">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-44" value="TX&lt;br&gt;END" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-40">
+          <mxGeometry x="310" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-45" value="TX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-40">
+          <mxGeometry x="10" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-46" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="5_jgNfehz54n4wZIJXmO-25" source="5_jgNfehz54n4wZIJXmO-41" target="5_jgNfehz54n4wZIJXmO-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="142" as="sourcePoint" />
+            <mxPoint x="556" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-47" value="rádio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-46">
+          <mxGeometry x="-0.4355" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-48" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="166" y="272" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-49" style="edgeStyle=none;html=1;entryX=0.015;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-25" source="5_jgNfehz54n4wZIJXmO-30" target="5_jgNfehz54n4wZIJXmO-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="158.96000000000004" y="145.55999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-50" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-25" source="5_jgNfehz54n4wZIJXmO-48" target="5_jgNfehz54n4wZIJXmO-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212" y="91.99640316205523" as="sourcePoint" />
+            <mxPoint x="283.19999999999993" y="154.80999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-51" value="WiFi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-50">
+          <mxGeometry x="-0.4355" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="141" y="240" width="249" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-53" value="&lt;h1&gt;Nevýhody&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#ffffff&quot;&gt;Rychlost signálu&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Neposkytuje:&amp;nbsp; (ale lze přidat)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;automatické šifrování&lt;br&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;auto. autentizaci&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DoS útoky (nejsou tak časté)&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;vyšší komplexita&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-25">
+          <mxGeometry x="576" width="264" height="298.5714285714286" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-54" value="LAN verze" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="940" width="830" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="160" y="240" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-56" value="&lt;h1&gt;Ovládání bez cloudu&lt;/h1&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;tohle jsou verze, které využívají &lt;b style=&quot;&quot;&gt;cloud &lt;/b&gt;na to aby se bazén dal ovládat odkukoli (mimo verze 4), avšak cloud není zdarma (resp. &lt;b style=&quot;&quot;&gt;platí se za využívání&lt;/b&gt;) , takže by se mohla přidat i verze toho, že komunikace s bazénem/END by byla stále jednou z verzí co tu je, ale bez prvku cloudu &amp;gt;&amp;gt; tzn. by se využívalo &lt;b style=&quot;&quot;&gt;lokální&lt;/b&gt;&amp;nbsp;ovládání / po síti, což vyžaduje&amp;nbsp; uživatele být na stejné síti doma&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="25" y="50" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-57" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;dashed=1;dashPattern=8 8;" edge="1" parent="5_jgNfehz54n4wZIJXmO-54" source="5_jgNfehz54n4wZIJXmO-58" target="5_jgNfehz54n4wZIJXmO-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-58" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="290" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-59" style="edgeStyle=none;html=1;fontSize=15;dashed=1;dashPattern=8 8;" edge="1" parent="5_jgNfehz54n4wZIJXmO-54" source="5_jgNfehz54n4wZIJXmO-60" target="5_jgNfehz54n4wZIJXmO-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-60" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fontSize=15;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="200" y="260" width="40" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-61" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="435" y="370" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-62" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="435" y="330" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-63" value="TX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="420" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-64" value="motor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="670" y="300" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-65" value="" style="group" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="580" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-66" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-65">
+          <mxGeometry x="25" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-67" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-65">
+          <mxGeometry x="25" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-68" value="( (&amp;nbsp; &amp;nbsp; &amp;nbsp;) )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-65">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-69" style="edgeStyle=none;html=1;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-54" source="5_jgNfehz54n4wZIJXmO-66" target="5_jgNfehz54n4wZIJXmO-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-70" value="TX&lt;br&gt;END" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="590" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-71" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="5_jgNfehz54n4wZIJXmO-54" source="5_jgNfehz54n4wZIJXmO-61" target="5_jgNfehz54n4wZIJXmO-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="972" y="-1158" as="sourcePoint" />
+            <mxPoint x="1086" y="-1158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-72" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.easygatesdirect.co.uk/store/image/cache/data/cloner-500-500x500.png;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-54">
+          <mxGeometry x="510" y="229" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-73" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="5_jgNfehz54n4wZIJXmO-54" source="5_jgNfehz54n4wZIJXmO-72" target="5_jgNfehz54n4wZIJXmO-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-74" value="radio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-73">
+          <mxGeometry x="-0.3475" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-75" value="" style="endArrow=classic;html=1;entryX=0.002;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5_jgNfehz54n4wZIJXmO-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="1010" as="sourcePoint" />
+            <mxPoint x="1250" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-76" value="" style="endArrow=classic;html=1;entryX=-0.003;entryY=0.317;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5_jgNfehz54n4wZIJXmO-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="864" y="1620" as="sourcePoint" />
+            <mxPoint x="1253.9999999999995" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-77" value="" style="endArrow=classic;html=1;entryX=-0.001;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5_jgNfehz54n4wZIJXmO-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="864" y="565" as="sourcePoint" />
+            <mxPoint x="1250" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-78" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;glass=0;noLabel=1;connectable=0;allowArrows=0;container=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="1850" width="840" height="420" as="geometry">
+            <mxRectangle x="24" y="180" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-79" value="&lt;h1&gt;Výhody&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;velmi vysoké zabezpečení&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;nízká latence přenosu&lt;/span&gt;&lt;/li&gt;&lt;li&gt;velmi malá komplexita&lt;/li&gt;&lt;li&gt;nízká spotřeba při BLE&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="326" width="264" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-80" value="&lt;h1&gt;HW&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;WiFi / BLE + radio TX umístěný v ENDu&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="141" width="205" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-81" value="&lt;h1&gt;Nevýhody&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;velmi krátký dosah, pouze nablízko&lt;/li&gt;&lt;li&gt;nelze provozovat chytré funkce, např.&lt;br&gt;zatahování podle počasí atd&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="576" width="264" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-82" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=0.97;exitY=0.514;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-78" source="5_jgNfehz54n4wZIJXmO-96" target="5_jgNfehz54n4wZIJXmO-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="246" y="330" as="sourcePoint" />
+            <mxPoint x="331" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-83" value="WiFi / BLE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-82">
+          <mxGeometry x="-0.4355" relative="1" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-84" value="" style="group" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="390" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-85" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-84">
+          <mxGeometry x="25" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-86" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-84">
+          <mxGeometry x="25" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-87" value="( (&amp;nbsp; &amp;nbsp; &amp;nbsp;) )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-84">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-88" value="TX&lt;br&gt;END" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="400" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-89" value="motor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="492" y="250" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-90" style="edgeStyle=none;html=1;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="5_jgNfehz54n4wZIJXmO-78" source="5_jgNfehz54n4wZIJXmO-85" target="5_jgNfehz54n4wZIJXmO-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-91" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="5_jgNfehz54n4wZIJXmO-78" source="5_jgNfehz54n4wZIJXmO-93" target="5_jgNfehz54n4wZIJXmO-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-92" value="rádio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-91">
+          <mxGeometry x="-0.3475" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-93" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.easygatesdirect.co.uk/store/image/cache/data/cloner-500-500x500.png;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="286" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-94" value="&lt;h1&gt;Hodí se pro&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;zákazníky, kteří si vystačí s tím že bazén budou ovládat napřímo, což však dementuje rádio ovladač&lt;br&gt;(pokud jediné co je potřeba ovládat je zapnout/vypnout)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="596" y="230" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-95" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Verze 4&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;WiFi / BLE&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry y="21.5" width="150" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-96" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fontSize=15;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-78">
+          <mxGeometry x="176" y="300" width="40" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-97" value="&lt;h1&gt;Výhody&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;velké vzdálenosti mezi END a&amp;nbsp; TX&lt;/li&gt;&lt;li&gt;spolehlivost komunikace&lt;/li&gt;&lt;li&gt;velmi nízka spotřeba vysílače (co se signálu týče)&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1250" width="264" height="203.57142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-98" value="&lt;h1&gt;HW&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Vysílač Wifi + LoRa&amp;nbsp;&lt;br&gt;umístěný v domácnosti/blízko routeru&lt;/li&gt;&lt;li&gt;LoRa + radio vysílač v ENDu&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="1250" width="205" height="203.57142857142858" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-99" value="&lt;h1&gt;Nevýhody&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#ffffff&quot;&gt;Rychlost &lt;a href=&quot;https://www.researchgate.net/figure/Average-measured-latency-values-for-LoRa-transmission_fig6_355858977&quot; style=&quot;&quot;&gt;signálu&lt;/a&gt;&amp;nbsp;(62-127ms@2-8km)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Neposkytuje:&amp;nbsp; (ale lze přidat)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;automatické šifrování&lt;br&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;auto. autentizaci&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DoS útoky (nejsou tak časté)&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ffffff&quot;&gt;komplexnost - především u LoRa není moc standardem zabezpečení, takže se musí implementovat&lt;/font&gt;&lt;font color=&quot;#f0db22&quot;&gt; &lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;(např. AES)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ffffff&quot;&gt;LoRa je docela zbytečná na střední a kratší vzdálenosti&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1250" width="264" height="298.5714285714286" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-100" value="&lt;h1 style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;Hodí se pro&lt;/h1&gt;&lt;p style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;&lt;li style=&quot;padding: 3px 0px; border-color: rgb(0, 0, 0);&quot;&gt;bazény s velkou vzdáleností od AP (cca 60m+)&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1610" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-101" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Verze 3&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Cloud&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;WiFi&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;LoRa&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="24" y="1280" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-102" value="Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1482" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-103" value="motor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1482" width="64" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-104" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="630" y="1512" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-105" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-104">
+          <mxGeometry x="25" y="40" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-106" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-104">
+          <mxGeometry x="25" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-107" value="( (&amp;nbsp; &amp;nbsp; &amp;nbsp;) )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-104">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-108" style="edgeStyle=none;html=1;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="1" source="5_jgNfehz54n4wZIJXmO-105" target="5_jgNfehz54n4wZIJXmO-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-109" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.easygatesdirect.co.uk/store/image/cache/data/cloner-500-500x500.png;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-110" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="5_jgNfehz54n4wZIJXmO-109" target="5_jgNfehz54n4wZIJXmO-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-111" value="radio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-110">
+          <mxGeometry x="-0.3475" y="1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-112" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="1522" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-113" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-112">
+          <mxGeometry x="25" y="30" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-114" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-112">
+          <mxGeometry x="25" y="-12" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-115" value="( (&amp;nbsp; &amp;nbsp; &amp;nbsp;) )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-112">
+          <mxGeometry y="-12" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-116" value="TX&lt;br&gt;END" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-112">
+          <mxGeometry x="310" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-117" value="TX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="5_jgNfehz54n4wZIJXmO-112">
+          <mxGeometry x="10" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-118" style="edgeStyle=none;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;" edge="1" parent="1" source="5_jgNfehz54n4wZIJXmO-113" target="5_jgNfehz54n4wZIJXmO-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466" y="1392" as="sourcePoint" />
+            <mxPoint x="580" y="1392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-119" value="LoRa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-118">
+          <mxGeometry x="-0.4355" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-120" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1522" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-121" style="edgeStyle=none;html=1;entryX=0.015;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="5_jgNfehz54n4wZIJXmO-102" target="5_jgNfehz54n4wZIJXmO-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="182.96000000000004" y="1395.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-122" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="5_jgNfehz54n4wZIJXmO-120" target="5_jgNfehz54n4wZIJXmO-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="1341.9964031620552" as="sourcePoint" />
+            <mxPoint x="307.19999999999993" y="1404.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-123" value="WiFi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_jgNfehz54n4wZIJXmO-122">
+          <mxGeometry x="-0.4355" relative="1" as="geometry">
+            <mxPoint x="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5_jgNfehz54n4wZIJXmO-124" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=none;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="174" y="1502" width="250" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
